@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Honey & Crumbs</title>
+  </head>
+  <body>
+    <header class="main_header">
+      <nav class="main_navbar">
+        <a class="logo" href="#">
+          <img src="images/Logo.svg" alt="honey and crumbs company logo" />
+        </a>
+        <div class="nav_links">
+          <a href="#About">About</a>
+          <a href="#Work">Work</a>
+          <a href="#Contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main class="main_content">
+      <img
+        src="images/hero.svg"
+        alt="An image of one of the displays in the bakery"
+        class="hero_image"
+      />
+
+      <section id="About" class="about_section">
+        <h2 class="section_header">Who are we?</h2>
+        <article class="about_container">
+          <p class="section_description">
+            Welcome to Honey and Crumbs, a cozy bakery with a passion for
+            handcrafted treats. We believe that good food brings people
+            together, which is why every loaf, pastry, and sweet here is made
+            with love, using simple ingredients and time-honored techniques.
+            <br />
+            <br />
+            Our offerings range from freshly baked sourdough and flaky
+            croissants to whimsical cupcakes and custom pastries, each designed
+            to add a touch of comfort and joy to your day. Whether you’re
+            grabbing a quick treat or celebrating a special moment, we’re
+            honored to be part of your story.
+            <br />
+            <br />
+            Thank you for supporting Honey and Crumbs—we can’t wait to share
+            something delicious with you!
+          </p>
+          <img src="images/cake.jpg" alt="picture of a cake" />
+          <video src="videos/sugar.mp4" autoplay loop controls>
+            Your browser does not support the video tag.
+          </video>
+        </article>
+      </section>
+      <section id="Work" class="work_section">
+        <h2 class="section_header">Some of our latest work</h2>
+        <p class="section_description">
+          Here are some of the latest work done at the bakery
+        </p>
+        <article class="cards_container">
+          <div class="section_card">
+            <img
+              src="images/bread.jpg"
+              alt="picture of some freshly baked bread"
+            />
+            <h3 class="card_title">Freshly Baked Bread</h3>
+            <p class="section_text">
+              Nothing says comfort like the aroma of fresh-baked bread. Our
+              rustic sourdough, fluffy brioche, and crusty baguettes are made
+              with love daily, using simple ingredients and a whole lot of
+              patience. Perfect for every table, every day
+            </p>
+          </div>
+          <div class="section_card">
+            <img
+              src="images/display.jpg"
+              alt="picture of a display in the bakery with some baked goods"
+            />
+            <h3 class="card_title">Baked Goods Display</h3>
+            <p class="section_text">
+              Step into Honey and Crumbs and be greeted by our warm, welcoming
+              display of handcrafted delights. From golden pastries to hearty
+              breads, our shelves are filled with treats baked to bring a little
+              sweetness to your day
+            </p>
+          </div>
+          <div class="section_card">
+            <img
+              src="images/sweets.jpg"
+              alt="picture of some different pastries"
+            />
+            <h3 class="card_title">Assorted Pastries</h3>
+            <p class="section_text">
+              Our pastry selection is flaky, buttery, and utterly irresistible.
+              Choose from our signature croissants, sweet danishes, and
+              fruit-filled turnovers—each one baked to golden perfection and
+              ready to make your day a little sweeter
+            </p>
+          </div>
+          <div class="section_card">
+            <img
+              src="images/cupcake.jpg"
+              alt="picture of different types of cupcakes"
+            />
+            <h3 class="card_title">Cupcake Creations</h3>
+            <p class="section_text">
+              Each cupcake is a miniature masterpiece, topped with swirls of
+              buttercream and sprinkled with joy. Choose from classic flavors or
+              seasonal specials, each one baked with care and decorated for a
+              touch of whimsy
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="Contact" class="contact_section">
+        <h2 class="section_header">Contact us</h2>
+        <p class="section_description">
+          If you have any questions, don't hesitate to reach out!
+        </p>
+        <form action="Contact" class="contact_container">
+          <label for="Name">Name</label>
+          <input type="text" id="Name" placeholder="Your name.." />
+          <label for="Phone">Phone numer</label>
+          <input type="text" id="Phone" placeholder="Your phone number.." />
+          <label for="Phone">Email</label>
+          <input type="text" id="Email" placeholder="Your email.." />
+          <label for="Message">Message</label>
+          <textarea
+            name="Message"
+            id="Message"
+            placeholder="Your Message.."
+          ></textarea>
+          <br />
+          <input type="submit" value="send" class="submit_button" />
+        </form>
+      </section>
+    </main>
+    <footer class="main_footer">
+      <h2 class="section_header">
+        Honey & <br />
+        Crumbs
+      </h2>
+      <article class="footer_info">
+        <table class="contact_section_footer">
+          <tr>
+            <th>Contact</th>
+          </tr>
+          <tr>
+            <td>info@honeycrumbs.com</td>
+          </tr>
+          <tr>
+            <td>070-123 45 67</td>
+          </tr>
+          <tr>
+            <td>
+              Adress 123 <br />
+              123 45 Stockholm
+            </td>
+          </tr>
+        </table>
+        <div class="footer_nav">
+          <a href="#About">About</a>
+          <a href="#Work">Work</a>
+          <a href="#Contact">Contact us</a>
+        </div>
+      </article>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d65196.520678840694!2d17.9989982830654!3d59.29302228567213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x465f77af6e4cd0a7%3A0xc5dcdacc50227efc!2sArenav%C3%A4gen%2061%2C%20121%2077%20Johanneshov!3m2!1d59.293048299999995!2d18.081398!5e0!3m2!1ssv!2sse!4v1730140839590!5m2!1ssv!2sse"
+        width="400"
+        height="300"
+        style="outline: none; border: none; border-radius: 2%"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </footer>
+  </body>
+</html>
